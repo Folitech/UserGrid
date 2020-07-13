@@ -1,0 +1,70 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#body {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: large;
+    width: 80%;
+    background-color: rgba(168, 168, 168, 0.856);
+    border-radius: 15px;
+}
+
+caption {
+    text-align: left;
+}
+
+table {   
+    margin-left: auto;
+    margin-right: auto; 
+    border-collapse: collapse;
+    width: 95%;
+}
+
+thead { 
+    height: 50px;
+    
+}
+tbody {
+    height: 150px;
+    overflow-y: auto;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+    background-color: darkcyan;
+    border-bottom: 2px solid black;
+}
+
+td {
+    text-align: left;
+    padding: 10px;    
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #00d9ff4d
+}
+
+tfoot {
+    height: 50px;
+    background-color: #00d9ff9a;
+    border-top: 2px solid black;
+    font-weight: bold;
+    color: black;
+}
+.amount {
+    text-align: right;
+}
+#sum {
+    text-align: right;
+}

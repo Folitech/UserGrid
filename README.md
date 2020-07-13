@@ -1,2 +1,2 @@
 # UserGrid
-Grid user showing the total sum
+User grid showing the total sum
