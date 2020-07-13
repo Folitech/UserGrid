@@ -1,69 +1,78 @@
 body {
     background-image: url("../images/background.jpg");
-    background-size: cover;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: auto;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
 }
 
 #body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    font-size: large;
     width: 80%;
     background-color: rgba(168, 168, 168, 0.856);
     border-radius: 15px;
 }
 
+h1 {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
 caption {
     text-align: left;
 }
 
-table {   
-    margin-left: auto;
-    margin-right: auto; 
-    border-collapse: collapse;
+#table {
     width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-thead { 
+#table table {    
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+#table-head thead {
+    text-align: left;
     height: 50px;
-    
-}
-tbody {
-    height: 150px;
-    overflow-y: auto;
-}
-
-th {
-    text-align: center;
-    padding: 10px;
     background-color: darkcyan;
     border-bottom: 2px solid black;
 }
 
-td {
-    text-align: left;
-    padding: 10px;    
+#table-body {
+    height: 100px;
+    overflow-y: auto;
 }
 
-tbody tr:nth-child(even) {
+#table-body table td{
+    text-align: left;
+    padding: 5px;
+}
+
+#table-body table tr:nth-child(even) {
     background-color: #f2f2f2
 }
 
-tbody tr:nth-child(odd) {
+#table-body table tr:nth-child(odd) {
     background-color: #00d9ff4d
 }
 
-tfoot {
+#table-body table td:nth-child(2) {
+    padding-left: 5%;
+}
+
+#table-foot table {
     height: 50px;
     background-color: #00d9ff9a;
     border-top: 2px solid black;
     font-weight: bold;
-    color: black;
 }
+
 .amount {
     text-align: right;
+    padding-right: 10px;
 }
 #sum {
     text-align: right;
